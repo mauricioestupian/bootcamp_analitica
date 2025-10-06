@@ -1,6 +1,3 @@
 for (i = 0; i < 5; i++) {
     console.log("Hello, world!");
 }
-
-//comentario
-//segundo comentario
