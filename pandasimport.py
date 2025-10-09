@@ -10,6 +10,13 @@ print(df.head(2))
 df["P_Total"]=df['Precio']*df['Cantidad']
 print("La nueva serie es:")
 print(df)
+#defino columnas a seleccionar
+colums=["Producto","P_Total"]
+#crea la nueva serie con las columnas seleccionadas
+df_expor=df[colums]
+# o directamenete sin variable de columnas:
+df_export= df[["Producto","P_Total"]]
+print(df_expor)
 
 #importar columnas especificas del csv
 fr2 = pd.read_csv("data/archivo.csv", sep=";", usecols=["Producto","Precio"])

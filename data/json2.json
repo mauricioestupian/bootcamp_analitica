@@ -1,0 +1,10 @@
+{
+    "grupo1":[
+        {"Nombre":"Ana","Edad":28},
+        {"Nombre":"Luis","Edad":35}
+    ],
+    "grupo2":[
+        {"Nombre":"Sofía","Edad":22},
+        {"Nombre":"Carlos","Edad":40}
+    ]
+}
