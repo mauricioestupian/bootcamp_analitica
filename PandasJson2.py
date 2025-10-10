@@ -16,4 +16,25 @@ print(df2)
 
 #se unifica la data para que se muestre en un solo conjunto de datos
 df_final=pd.concat([df1,df2],axis=0,ignore_index=True)
+
+print("Validacion data duplicada:")
+print(df_final.duplicated())
+#Suamtoria de duplicados
+print("total de datos duplicados")
+print(df_final.duplicated().sum())
+
+#verificar duplicados por columna
 print(df_final)
+print(df_final.duplicated(subset=["Id","Nombre"]))
+
+#dataframe sin duplicados
+df_limpio=df_final.drop_duplicates(keep="last")
+print(df_final)
+print("Dataset sin duplicados:")
+print(df_limpio)
+
+#Suma edades 
+print(df_final)
+#Convertir Texto en Numero
+df_final["Edad"]=pd.to_numeric(df_final["Edad"],errors="raise")
+print(f"suma edades {df_final["Edad"].sum()}")
