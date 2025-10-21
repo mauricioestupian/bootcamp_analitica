@@ -8,8 +8,8 @@ print(df)
 #seccionar o dividir grupos por dataframe separados para luego unirlos
 df1 = pd.json_normalize(df["grupo1"].tolist())#para versiones anteriores de python 13.13
 df2 = pd.DataFrame(df["grupo2"].tolist())#Vesiones 13.13 en adelante sin el .tolist()
-
-print("datos 1")
+n= 5
+print(f"datos 1 {n}")
 print(df1)
 print("datos 2")
 print(df2)
