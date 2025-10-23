@@ -2,7 +2,7 @@ import pandas as pd
 
 #Cargar el archivo .csv
 #df=pd.read_csv("data/archivo.csv", sep=";", names=["Producto";"Precio";"Cantidad"]) uso de names en el escenario que el csv no tienen encabezado
-df=pd.read_csv("data/archivo.csv", sep=";")
+df=pd.read_csv(" # /archivo.csv", sep=";")
 
 #mostrar la data del csv
 print(df)
