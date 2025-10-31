@@ -1,4 +1,4 @@
-#instalamos biblioteca Seaborn 
+#instalamos biblioteca Seaborn - pip install seaborn
 #importamos las bibliotecas necesarias
 import pandas as pd 
 import seaborn as sns

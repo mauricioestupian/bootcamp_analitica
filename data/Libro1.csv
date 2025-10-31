@@ -1,0 +1,11 @@
+ID;Producto;Categoría;Ventas;Precio Unitario;Total Ventas;Región
+1;Laptop;Electrónica;15;1200.00;18000.00;Norte
+2;Monitor;Computación;8;500.00;4000.00;Sur
+3;Teclado;Accesorios;25;50.00;1250.00;Norte
+4;Laptop;Electrónica;10;1100.00;11000.00;Este
+5;Tablet;Computación;20;700.00;14000.00;Oeste
+6;Impresora;Oficina;5;400.00;2000.00;Norte
+7;Smartphone;Electrónica;30;800.00;24000.00;Sur
+8;Mouse;Accesorios;40;20.00;800.00;Este
+9;Monitor;Computación;12;450.00;5400.00;Oeste
+10;Tablet;Computación;18;750.00;13500.00;Norte
