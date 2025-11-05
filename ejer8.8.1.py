@@ -9,7 +9,9 @@ print("Datos ventas:")
 print(df.head(10))
 
 #Agrupar los datos por la columna "Categoría"
-precio_promedio=df.groupby("Categoría")['Cantidad Vendida'].sum().round(2).reset_index()
+precio_promedio=df.groupby("Categoría")['Cantidad Vendida'].sum().reset_index()
 print("\nSuma Cantidad Vendida por Categoría:")
-precio_promedio=precio_promedio.sort_values(by='Cantidad Vendida', ascending=True)#Ordenar por Categoría
+precio_promedio=precio_promedio.sort_values(by='Cantidad Vendida', ascending=False)#Ordenar por Categoría
 print(precio_promedio)  
+
+precio_promedio.columns=['Categoría','Suma_Cantidad_Vendida']
