@@ -4,11 +4,13 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 #Cargar el archivo .csv 
-
+'''Para hacer uso de un archivo desde dirve es necesario configurar el enlace de compartición pública y 
+usar el formato de enlace de descarga directa como se muestra a continuación 
+https://drive.google.com/uc?export=download&id=[ID_DEL_ARCHIVO]
+'''
 url= "https://drive.google.com/uc?export=download&id=1VbrQjDF2Br0tjHHiruUnp-0qmnQwon1I"
 df=pd.read_csv(url )
 print(df.head())
-
 #Seleccionar columnas numericas para el mapa de calor
 df_numeric=df.select_dtypes(include="number")
 print("Columnas numericas:")

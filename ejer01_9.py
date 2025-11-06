@@ -6,6 +6,7 @@ import gdown #importar gdown para descargar archivos desde google drive
 #Cargar el archivo .csv
 df_p=pd.read_csv("data/datos_groupby.csv") #cargar archivo csv con pandas
 #carga archivo csv desde google drive con gdown
+
 url = "https://drive.google.com/uc?export=download&id=1JS7jkpbWMaOlpsh_7Q6P8nue1U9aiM-C" 
 #url del archivo en google drive
 output = "data/datos_group.csv" #nombre del archivo a guardar
